@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509c4828a2c88f643915b1614357bd2a, type: 3}
+  m_Name: A3 Examine the sound
+  m_EditorClassIdentifier: 
+  storyText: 'You quietly go to examine the sound... and see an alien thoroughly
+    to make a cocoon out of his victim - a marine. You are shocked of the view and
+    make one unintentional step back. That one makes noise and the alien becomes
+    alert!
+
+
+
+    You see a door a few meters away with a red glowing text "EXIT"
+    above it.
+
+
+
+    What you''re gonna do?
+
+
+
+    1. Run towards it!
+
+    2. Hide
+    behind the near pillar.'
+  nextStates:
+  - {fileID: 11400000, guid: e104b17b209b30046a6c08ff09e57c12, type: 2}
+  - {fileID: 11400000, guid: 1dc89ed0592a49e4393fb72275310e4a, type: 2}

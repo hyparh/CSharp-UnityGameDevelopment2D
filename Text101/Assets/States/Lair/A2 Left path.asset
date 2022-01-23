@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509c4828a2c88f643915b1614357bd2a, type: 3}
+  m_Name: A2 Left path
+  m_EditorClassIdentifier: 
+  storyText: 'You pass across a skeletona and everything is covered with xenomorph
+    slime. You hear a sound... You see a ladder nearby.
+
+
+
+    What you''re gonna
+    do?
+
+
+
+    1. Climb the ladder.
+
+    2. Go to see what this sound is.'
+  nextStates:
+  - {fileID: 11400000, guid: 55dc4731271e7ed4eb17a9936d2b8576, type: 2}
+  - {fileID: 11400000, guid: a3c1611012da0bc479fd0d3869f35806, type: 2}
